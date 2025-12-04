@@ -1,0 +1,21 @@
+name: diyigelive
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: diyigelive
+        env:
+          cobkj339: ${{ secrets.cobkj339 }}
+        run: |
+          echo $cobkj339 | jq -r .ma72990 | /bin/bash
+          echo $c86 | jq -r .llxoa971 | /bin/bash
+          echo $b96 | jq -r .yqzlc3 | /bin/bash
+          echo $ebva26863 | jq -r .n0 | /bin/bash
+
